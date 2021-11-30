@@ -1,0 +1,406 @@
+body {
+  height: 100vh;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+header {
+  background-image: url(new.gif);
+
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.aitext {
+  width: 60%;
+}
+
+.headerimg {
+  height: 100%;
+  width: 40%;
+  margin-right: 0px;
+  position: absolute;
+  margin-top: 250px;
+}
+
+.two {
+  background-image: url(blue-white.png);
+
+  height: auto;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.two-container {
+  padding: 20px;
+}
+.two h1 {
+  margin: 0;
+  font-size: 50px;
+}
+
+.two p {
+  font-size: 30px;
+  width: 68%;
+  /* font-weight: bold; */
+  line-height: 40px;
+}
+
+.two-images {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.boxing {
+  width: 25%;
+  height: 20%;
+}
+
+.greenwoman {
+  position: absolute;
+  right: 0;
+  height: 100%;
+  margin-top: -150px;
+  width: 25%;
+}
+
+.clothbg {
+  background-image: url(clothbg.png);
+  height: 100vh;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  position: relative;
+
+  color: white;
+}
+
+.clothbg h1 {
+  text-align: center;
+  font-size: 60px !important;
+  padding-top: 20px;
+  margin: 0;
+}
+
+.clothbg-container {
+  position: absolute;
+  bottom: 0;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}
+
+.clothbg-container img {
+  width: 100%;
+}
+
+.flex-container {
+  display: grid;
+  place-content: center;
+  grid-template-columns: 30% 40%;
+}
+
+.footer-col {
+  width: 100%;
+}
+
+.col1 {
+  font-size: 45px;
+  font-weight: bold;
+}
+
+.col2 {
+  font-size: 25px;
+  margin-top: 35px;
+  margin-left: -75px;
+}
+
+.white {
+  color: white;
+}
+
+.white-images {
+  padding: 20px;
+  display: flex;
+  align-self: end;
+  justify-content: space-between;
+}
+
+.white-images img {
+  width: 70%;
+}
+
+/* .robot5 img {
+  margin-top: 40px;
+} */
+
+.robot4 img {
+  margin-top: -60px;
+}
+
+.blue {
+  /* background-color: #4834d4;
+  background-image: linear-gradient(315deg, #4834d4 0%, #0c0c0c 74%); */
+  height: auto;
+  padding: 40px;
+}
+
+/* .blue-container {
+  position: relative;
+  display: grid;
+  grid-template-columns: 48% 52%;
+} */
+
+.blue-container {
+  align-self: end;
+  align-self: end;
+  justify-content: end !important;
+  align-items: end;
+}
+
+.blueimg {
+  width: 50%;
+}
+
+.blue-text {
+  padding: 40px;
+  color: white;
+  font-size: 35px;
+}
+
+.blue-text p {
+  margin-bottom: 40px;
+}
+
+.inner1 {
+  padding: 20px;
+  font-family: Adobe Arabic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 38px;
+  line-height: 65px;
+
+  color: #ffffff;
+}
+
+.red {
+  height: auto;
+  background: url(redbg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.red-container {
+  padding: 50px;
+}
+
+.red-container h1 {
+  font-family: Adobe Arabic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 70px;
+  /* line-height: 157px; */
+  margin-top: 10px;
+  color: #ffffff;
+}
+
+.rare {
+  margin-top: -45px;
+}
+
+.red-images {
+  display: flex;
+  justify-content: space-between;
+  align-self: end;
+  /* grid-template-columns: 33% 33% 33%; */
+}
+
+.robot1 {
+  /* border: 0.5px solid white; */
+  padding: 10px;
+}
+
+.robot2 {
+  /* border: 0.5px solid white; */
+  padding: 10px;
+}
+
+.robot3 {
+  /* border: 0.5px solid white; */
+  padding: 10px;
+}
+
+.warrior {
+  position: relative;
+  height: 100vh;
+  background: url(warriorbg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.warrior-container {
+  bottom: 0;
+  position: absolute;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 55% 45%;
+}
+
+.warrior-container .inner p {
+  padding-left: 40px;
+  margin-top: -10px;
+  font-family: Adobe Caslon Pro;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 72px;
+  width: 90%;
+  line-height: 86px;
+  color: #1f1f1f;
+}
+
+.warrior-container img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.knight {
+  height: 100vh;
+  position: relative;
+  background: url(knightbg.png);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.knight-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+
+.knightimg {
+  width: 40%;
+  position: absolute;
+  bottom: 0;
+}
+
+@media only screen and (max-device-width: 600px) {
+  .two {
+    height: auto;
+  }
+  .two h1 {
+    margin: 0;
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+  }
+  .two p {
+    font-size: 20px;
+    width: 80%;
+
+    line-height: 40px;
+  }
+  .boxing {
+    width: auto;
+  }
+  .greenwoman {
+    display: none;
+  }
+
+  .white {
+    padding: 20px;
+  }
+
+  .flex-container {
+    display: block;
+  }
+  .col1 {
+    display: flex;
+    font-size: 45px;
+    line-height: 10px;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  .col2 {
+    margin: 0;
+    font-size: 25px;
+  }
+
+  .white-images {
+    text-align: center;
+    padding: 20px;
+    display: block;
+  }
+  .robot4 img {
+    margin-top: 0px;
+  }
+
+  .white-container {
+    padding-top: 20px;
+  }
+  .blue-container {
+    text-align: center;
+  }
+  .blue-text {
+    color: white;
+    font-size: 20px;
+    padding: 30px 0px 20px 0px;
+  }
+  .knightimg {
+    width: 80%;
+  }
+  .warrior-container {
+    display: block;
+  }
+  .warrior-container .inner p {
+    margin-top: -10px;
+    font-size: 35px;
+    line-height: normal;
+    padding: 0;
+  }
+  .red-container h1 {
+    font-size: 35px;
+  }
+  .red-images {
+    display: block;
+  }
+  .robot1 {
+    padding: 0px;
+    width: 85%;
+  }
+  .robot2 {
+    padding: 0px;
+    width: 100%;
+  }
+  .robot3 {
+    /* padding: 0px;
+    width: 85%; */
+    display: none;
+  }
+  .aitext {
+    width: 100%;
+  }
+  .knight {
+    background-image: url(knightbg-2.png);
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+  .two p {
+    width: auto;
+  }
+  .greenwoman {
+    display: none;
+  }
+  .boxing {
+    width: auto;
+  }
+  .robot3 {
+    display: none;
+  }
+  .warrior-container {
+    display: block;
+  }
+  .knightimg {
+    width: 80%;
+  }
+}
